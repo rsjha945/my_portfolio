@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
 
-    <link href="style.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" />
 
 </head>
 
 <body>
-    <h1 > Welcome </h1>
+    <h1> Welcome </h1>
     <p> I am Ravi shankar jha, I am making this library to store all of my projects at a single place</p>
-    
-    <hr >
+
+    <hr>
 
     <h2>@typography</h2>
 
@@ -23,34 +24,34 @@
     <p> This is the paragrap in a normal text</p>
     <p> This is the paragrap in a <strong>bold</strong> text</p>
     <small>this is relatively smaller text</small>
-    <hr >
+    <hr>
 
     <h2>@containers</h2>
 
     <h3>fluid container</h3>
     <div class="container container-fluid"> this is a fluid container and it will go till the end of page</div>
-    <hr >
+    <hr>
 
     <h3>center container</h3>
     <div class="container container-center">this is a fluid container and it will go till specified width</div>
-    <hr >
+    <hr>
 
     <h2>@links</h2>
     <a class="link link-primary" href="/">Primary link</a>
-    <a class="link link-secondary"href="/">Secondary link</a>
-    <hr >
+    <a class="link link-secondary" href="/">Secondary link</a>
+    <hr>
 
     <h2>@lists</h2>
     <h3>unordered list</h3>
     <p> This list should not have bullet</p>
-    <ul class ="list-non-bullet">
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item two</li>
         <li>Item three</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul class ="list-non-bullet">
+    <ul class="list-non-bullet">
         <li class="list-item-inline">Inline Item one</li>
         <li class="list-item-inline"> Inline Item two</li>
         <li class="list-item-inline">Inline Item three</li>
@@ -83,22 +84,26 @@
     <hr />
 
     <h2>@header </h2>
-    <header>
-        <img src="images/programmer.svg"/>
-        <h1> heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/programmer.svg" />
+        <h1 class="hero-heading"> I am a <span class="heading-inverted">data scientist</span></h1>
     </header>
 
-    <hr >
+    <hr>
 
     <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p> This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h3>
+            <p> This will have white background</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p> This will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h3>
+            <p> This will have gray background</p>
+        </div>
     </section>
     <hr>
 
@@ -116,4 +121,5 @@
     <div style="height: 30vh;"></div>
 
 </body>
+
 </html>
